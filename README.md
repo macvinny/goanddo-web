@@ -1,5 +1,13 @@
-# Go And Do / Ide e Fazei
+# GOandDo
 
-Uma plataforma desenvolvida em [Spring Boot](https://spring.io/projects/spring-boot) para construção da **API**, [Spring Data JPA](https://spring.io/projects/spring-data-jpa) para o banco de dados **MySQL**  e [Angular](https://angular.io/). 
+##### ENGLISH
+
+A platform developed in [Angular](https://angular.io/) and consuming a [GOandDo API](https://github.com/macvinny/goanddo-api).
+
+The purpose of this platform is to provide the meeting of pastors and missionaries with schools and missionary institutions.
+
+##### PORTUGUÊS
+
+Uma plataforma desenvolvida em [Angular](https://angular.io/) e consumindo a [GOandDo API](https://github.com/macvinny/goanddo-api). 
 
 O objetivo dessa plataforma é proporcionar o encontro de pastores e missionários com igrejas e instituições missionárias.
