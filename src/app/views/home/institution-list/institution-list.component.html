@@ -1,0 +1,18 @@
+<div *ngFor="let institution of institutions">
+    <mat-card>
+        <mat-card-header>
+            <img mat-card-avatar src="{{institution.imageUrl}}" alt="institution picture">
+            <mat-card-title>{{institution.name}}</mat-card-title>
+            <mat-card-subtitle>{{institution.address}}</mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+            Description text!
+        </mat-card-content>
+
+        <mat-card-actions>
+            <button mat-icon-button><mat-icon>favorite</mat-icon></button>
+            <button mat-icon-button><mat-icon>share</mat-icon></button>
+        </mat-card-actions>
+    </mat-card>
+</div>

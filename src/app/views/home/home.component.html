@@ -1,0 +1,27 @@
+<mat-toolbar>
+    <button mat-icon-button>
+        <mat-icon>menu</mat-icon>
+    </button>
+
+    <span>GOandDo</span>
+    
+    <span class="spacer"></span>
+
+    <button mat-icon-button>
+        <mat-icon>favorite</mat-icon>
+    </button>
+    
+    <button mat-icon-button>
+        <mat-icon>share</mat-icon>
+    </button>
+</mat-toolbar>
+
+<mat-tab-group mat-align-tabs="center">
+    <mat-tab label="Persons">
+        <app-person-list></app-person-list>
+    </mat-tab>
+
+    <mat-tab label="Institutios">
+        <app-institution-list></app-institution-list>
+    </mat-tab>
+</mat-tab-group>
